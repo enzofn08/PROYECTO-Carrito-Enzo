@@ -1,0 +1,195 @@
+
+html {
+    font-size: 62.5%;
+}
+body {
+    background-color: #000000
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    font-size: 3rem;
+}
+h4 {
+    font-size: 16px;
+    font-weight: 700;
+}
+header {
+    padding: 20px 0 0 0;
+    background: rgb(36, 32, 32);
+    text-align: center;
+    
+  
+}
+@media (min-width: 750px) {
+    header {
+        text-align: left;
+    }
+}
+.borrar-curso {
+    background-color: rgb(16, 95, 20);
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.full-width-img {
+    width: 50%; /* Ocupa el 100% del ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Evita el espacio debajo de la imagen */
+    text-align: left;
+}
+
+ul {
+    list-style: none;
+}
+#hero {
+    background-image:url(../img/hero.jpg);
+    height: 350px;
+    background-size: cover;
+}
+#encabezado {
+    margin: 30px 0;
+    background-color: rgb(0, 0, 0);
+    color: #8d601c;
+    
+}
+.submenu {
+    position: relative;
+    
+}
+
+.submenu #carrito{
+    display: none;
+}
+.submenu:hover #carrito{
+    display: block;
+    position: absolute;
+    right:0;
+
+    top:100%;
+    z-index: 1;
+    background-color: white;
+    padding: 20px;
+    min-height: 400px;
+    min-width: 300px;
+}
+.vacio {
+    padding: 10px;
+    background-color: crimson;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+.contenido-hero {
+    margin-top: 80px;
+    color: white;
+}
+.contenido-hero form {
+    position: relative;
+    margin-bottom: 0;
+}
+.contenido-hero form #buscador {
+    height: 50px;
+    margin-bottom: 0;
+}
+.contenido-hero form .submit-buscador {
+    position: absolute;
+    right:0;
+    top:0;
+    height: 100%;
+    padding: 0;
+    display: block;
+    text-indent: -9999px;
+    width: 50px;
+    background-image: url(../img/lupa.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    border:none;
+}
+
+
+.barra {
+    padding: 5px 0;
+    background: #2b1010; /* Old browsers */
+    
+}
+
+.barra p {
+    margin:0;
+    color: rgb(255, 255, 255);
+}
+.icono {
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 60px;
+    background-size: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+@media (min-width: 750px) {
+    .icono {
+        margin-bottom:0;
+    }
+}
+.icono1 {
+    background-image: url(../img/icono1.png);
+}
+.icono2 {
+    background-image: url(../img/icono2.png);
+}
+.icono3 {
+    background-image: url(../img/icono3.png);
+}
+
+#lista-cursos .row {
+    margin-bottom:20px;
+}
+.agregar-carrito {
+    margin:10px 0;
+    background-color: #ffffff;
+}
+
+.card {
+    background-color: #5f2828;
+    
+        height: 400px; /* Altura fija para todas las cartas */
+        display: flex;
+        flex-direction: column; /* Apila el contenido verticalmente */
+        justify-content: space-between; /* Espacia los elementos */
+        border: 1px solid #8d601c; /* Añade un borde para definir el contorno */
+        margin-bottom: 20px; /* Espacio entre cartas */
+    }
+    
+    .imagen-curso {
+        max-height: 200px; /* Ajusta la altura de la imagen */
+        object-fit: cover; /* Mantiene la relación de aspecto */
+        
+    }
+    
+    .info-card {
+        flex-grow: 1; /* Permite que el contenido ocupe el espacio restante */
+        color: #a58221;
+        
+
+    }
+    
+    .precio {
+        font-weight: bold; /* Resalta el precio */
+    }
+    
+
+.footer {
+    margin-top: 40px;
+    border-top:1px solid #2e2c2c;;
+    padding-top: 40px;   
+}
+.footer .menu a{
+display: block;
+margin-bottom: 10px;
+text-decoration: none;
+text-align: left;
+
+}

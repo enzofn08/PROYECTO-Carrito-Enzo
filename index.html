@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+<header id="header" class="header">
+    <div class="container">
+        <div class="row">
+            <div class="four columns">
+                <img src="img/logofondo.jpg" class="full-width-img" >
+            </div>
+            <div class="two columns u-pull-right">
+                <ul>
+                    <li class="submenu">
+                            <img src="img/cart.png" id="img-carrito">
+                            <div id="carrito">
+                                    
+                                    <table id="lista-carrito" class="u-full-width">
+                                        <thead>
+                                            <tr>
+                                                <th>Imagen</th>
+                                                <th>Nombre</th>
+                                                <th>Precio</th>
+                                                <th>Cantidad</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody></tbody>
+                                    </table>
+
+                                    <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                            </div>
+                    </li>
+                </ul>
+            </div>
+        </div> 
+    </div>
+    </header>
+
+
+    <div id="hero">
+        <div class="container">
+            <div class="row">
+                    <div class="six columns">
+                        <div class="contenido-hero">
+                                <h2>Los mejores productos para caballos</h2>
+                                <p>Productos de primera a gran precio</p>
+                                <form action="#" id="busqueda" method="post" class="formulario">
+                                    <input class="u-full-width" type="text" placeholder="¿Que quieres comprar?" id="buscador">
+                                    <input type="submit" id="submit-buscador" class="submit-buscador">
+                                </form>
+                        </div>
+                    </div>
+            </div> 
+        </div>
+    </div>
+
+    <div class="barra">
+        <div class="container">
+            
+            </div>
+        </div>
+
+    </div>
+
+    <div id="lista-cursos" class="container">
+        <h1 id="encabezado" class="encabezado">Accesorios para tus caballos</h1>
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/estribos.png" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Estribos Para Caballos Cuero Crudo Perita Con Argolla Crespo</h4>
+                        <p>Talabarteria el rival</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$74.500  <span class="u-pull-right ">$60.000</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1" style="background-color: #8B4513; color: white; border: none;">Agregar Al Carrito</a>
+
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/cincha.png" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4 >Cincha De Hilo Fija Para Recado O Montura</h4>
+                            <p>Talabarteria el rival</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$18.600  <span class="u-pull-right ">$16.800</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="2" style="background-color: #8B4513; color: white; border: none;">Agregar Al Carrito</a>
+
+                        </div>
+                    </div>
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/sudadera.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Sudadera De Lona Impermeable Para Montura De Caballo</h4>
+                            <p>Talabarteria el rival</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$39.000  <span class="u-pull-right ">$36.800</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="3" style="background-color: #8B4513; color: white; border: none;">Agregar Al Carrito</a>
+
+                        </div>
+                    </div> <!--.card-->
+            </div>
+
+        </div> <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/cabezada.png" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Cabezada Y Riendas Juego Fiador Especial Freno Para Caballo</h4>
+                        <p>Talabarteria el rival</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$450.000  <span class="u-pull-right ">$430.000</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="4" style="background-color: #8B4513; color: white; border: none;">Agregar Al Carrito</a>
+
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/mandil.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Mandil Cocido Para Bastó Recado Apero Guardapampa</h4>
+                            <p>Talabarteria el rival</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$17.000  <span class="u-pull-right ">$15.000</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="5" style="background-color: #8B4513; color: white; border: none;">Agregar Al Carrito</a>
+
+                        </div>
+                    </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/bozal.png" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Bozal Fino De Cuero Curtido Para Caballo</h4>
+                            <p>Talabarteria el rival</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$75.000<span class="u-pull-right ">$70.000</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="6" style="background-color: #8B4513; color: white; border: none;">Agregar Al Carrito</a>
+
+                        </div>
+                    </div> <!--.card-->
+            </div>
+        </div> <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/monturachilena,jpg.webp" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Montura Endurance Cordillerana Chilena Completa</h4>
+                        <p>Talabarteria el rival</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$410.000  <span class="u-pull-right ">$398.000</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="7" style="background-color: #8B4513; color: white; border: none;">Agregar Al Carrito</a>
+
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/raqueta.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Raqueta para Cepillar</h4>
+                            <p>Talabarteria el rival</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$5.000  <span class="u-pull-right ">$4.500</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="8" style="background-color: #8B4513; color: white; border: none;">Agregar Al Carrito</a>
+
+                        </div>
+                    </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/rebenque-de-madera-y-alpaca-cincelado-el-boyero.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Rebenque de madera y alpaca cincelado</h4>
+                            <p>Talabarteria el rival</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$250.000  <span class="u-pull-right ">$242.000</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="9" style="background-color: #8B4513; color: white; border: none;">Agregar Al Carrito</a>
+
+                        </div>
+                    </div> <!--.card-->
+            </div>
+        </div> <!--.row-->
+         
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row">
+                    <div class="four columns">
+                            <nav id="principal" class="menu">
+                                <a class="enlace" href="#">2024- Talabarteria El Rival</a>
+                                
+                            </nav>
+                    </div>
+                    
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>
